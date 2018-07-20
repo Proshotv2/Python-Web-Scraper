@@ -24,7 +24,6 @@ class guiScraper(Frame):
             for i in element:
                 result.insert(INSERT, i)
 
-
         self.var = StringVar()
         self.var.set("title")
 
@@ -33,11 +32,7 @@ class guiScraper(Frame):
         self.root.config(menu=menu)
         filemenu = Menu(menu)
         menu.add_cascade(label="File", menu=filemenu)
-        filemenu.add_command(label="Save")
-        filemenu.add_command(label="Exit")
-        helpmenu = Menu(menu)
-        menu.add_cascade(label="Help", menu=helpmenu)
-        helpmenu.add_command(label="About")
+        filemenu.add_command(label="Exit", command=close)
 
         frame = Frame(self.root, width=600)
         frame.pack(side=TOP, fill=BOTH, expand=True, anchor=N)
