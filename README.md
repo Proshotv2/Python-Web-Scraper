@@ -1,6 +1,6 @@
-# Text-File-Python
+# Python Web Scraper
 
-This was a simple project to combine a gui using tkinter and basic web scraping of any website tags. You can web scrape any title, h1-5 tags and span tags. I would make it more complex but I wanted to get a feel for how to make a gui correctly and place elements. 
+This was a simple project to combine a gui using tkinter and basic web scraping of H1 - H5 website tags. You can web scrape any title, h1-5 tags and span tags. I would make it more complex but I wanted to get a feel for how to make a gui correctly and place elements. 
 
-In order to use this simply download the python file, and ensure that you have the "requests" import (pip3 install requests), the beautifulsoup4 install (pip3 install beautifulsoup4). If you are using pycharm you'll have to import those it into your virtual environment first. 
+The web scraper is meant to showcase the knowledge of tools like beautifulsoup and tkinter for gui related web scraping. 
 
